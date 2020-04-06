@@ -1,0 +1,1 @@
+/usr/bin/curl -X POST -u 'ActQx5uAECA_P6ssSuZlPWBKQpAJ_YuYWwk1La1aqzSlAT-DmAtpE6IdoEThV90KYUy5COz-TtzWkPmh:ENojxWmPP4jqqv8cfJa3BT2AXQAnqvOBkdRevy-CE6FMd6VHQxy2Dx-Ofn0hVATJmsT27buEB8wDDeRD' -d 'grant_type=client_credentials' https://api.sandbox.paypal.com/v1/oauth2/token|jq ".access_token"

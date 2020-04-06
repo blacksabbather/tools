@@ -1,0 +1,41 @@
+<script src="https://www.paypalobjects.com/webstatic/ppplus/ppplus.min.js" type="text/javascript">
+</script>
+<div id="ppplus">
+</div>
+<script type="application/javascript">
+fetch("https://api.sandbox.paypal.com/v1/oauth2/token", {
+	body: "grant_type=client_credentials",
+	headers: {
+	Authorization: "Basic QWN0UXg1dUFFQ0FfUDZzc1N1WmxQV0JLUXBBSl9ZdVlXd2sxTGExYXF6U2xBVC1EbUF0cEU2SWRvRVRoVjkwS1lVeTVDT3otVHR6V2tQbWg6RU5vanhXbVBQNGpxcXY4Y2ZKYTNCVDJBWFFBbnF2T0JrZFJldnktQ0U2Rk1kNlZIUXh5MkR4LU9mbjBoVkFUSm1zVDI3YnVFQjh3RERlUkQ=",
+	"Content-Type": "application/x-www-form-urlencoded"
+	},
+	method: "POST"
+}).then((response) => { return response.json();})
+  .then((data) => {
+	fetch("https://api.sandbox.paypal.com/v1/payments/payment", {
+		body: "{\n  \"intent\": \"sale\",\n  \"payer\": {\n    \"payment_method\": \"paypal\"\n  },\n  \"application_context\":{\n        \"landing_page\":\"billing\"\n  },\n  \"transactions\": [\n    {\n      \"amount\": {\n        \"total\": \"30.11\",\n        \"currency\": \"USD\",\n        \"details\": {\n          \"subtotal\": \"30.00\",\n          \"tax\": \"0.07\",\n          \"shipping\": \"0.03\",\n          \"handling_fee\": \"1.00\",\n          \"shipping_discount\": \"-1.00\",\n          \"insurance\": \"0.01\"\n        }\n      }\n    }\n  ],\n  \"note_to_payer\": \"Contact us for any questions on your order.\",\n  \"redirect_urls\": {\n    \"return_url\": \"http://10.225.227.151:8080/payment_successful\",\n    \"cancel_url\": \"http://10.225.227.151:8080/payment_cancel\"\n  }\n}",
+		headers: {
+			Authorization: "Bearer "+data.access_token,
+			"Content-Type": "application/json"
+		},
+		method: "POST"
+	}).then((res) => { return res.json();})
+	 .then((payments) => {
+		console.log(payments.links[1]);
+		var ppp = PAYPAL.apps.PPP({
+			"approvalUrl": payments.links[1].href,
+			"placeholder": "ppplus",
+			"mode": "sandbox",
+			"country": "DE"
+		});
+	  })
+  });
+/*
+var ppp = PAYPAL.apps.PPP({
+"approvalUrl": "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-1D987469A44812344",
+"placeholder": "ppplus",
+"mode": "sandbox",
+"country": "DE"
+});
+*/
+</script>

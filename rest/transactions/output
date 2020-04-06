@@ -1,0 +1,300 @@
+{
+  "transaction_details": [
+    {
+      "transaction_info": {
+        "paypal_account_id": "838GGC67W23TJ",
+        "transaction_id": "5V711271C49123717",
+        "transaction_event_code": "T0002",
+        "transaction_initiation_date": "2020-03-06T14:04:59+0000",
+        "transaction_updated_date": "2020-03-06T14:04:59+0000",
+        "transaction_amount": {
+          "currency_code": "USD",
+          "value": "11.20"
+        },
+        "fee_amount": {
+          "currency_code": "USD",
+          "value": "-0.74"
+        },
+        "transaction_status": "S",
+        "transaction_subject": "FitnessMembership",
+        "ending_balance": {
+          "currency_code": "USD",
+          "value": "95558.81"
+        },
+        "available_balance": {
+          "currency_code": "USD",
+          "value": "95558.81"
+        },
+        "protection_eligibility": "01"
+      },
+      "payer_info": {
+        "account_id": "838GGC67W23TJ",
+        "email_address": "jay_wong-sellerhk@me.com",
+        "address_status": "Y",
+        "payer_status": "Y",
+        "payer_name": {
+          "alternate_full_name": "MJ's HK Store"
+        },
+        "country_code": "HK"
+      },
+      "shipping_info": {
+        "name": "Minjie, Wang",
+        "address": {
+          "line1": "71566176 Sky E137 S",
+          "city": "Posta",
+          "country_code": "HK",
+          "postal_code": "W185744"
+        }
+      },
+      "cart_info": {
+        "item_details": [
+          {
+            "item_quantity": "1",
+            "item_unit_price": {
+              "currency_code": "USD",
+              "value": "11.20"
+            },
+            "item_amount": {
+              "currency_code": "USD",
+              "value": "11.20"
+            },
+            "total_item_amount": {
+              "currency_code": "USD",
+              "value": "11.20"
+            }
+          }
+        ]
+      },
+      "store_info": {},
+      "auction_info": {},
+      "incentive_info": {}
+    },
+    {
+      "transaction_info": {
+        "paypal_account_id": "UFN298XXEDRZL",
+        "transaction_id": "40J61337D0878603G",
+        "transaction_event_code": "T0002",
+        "transaction_initiation_date": "2020-03-06T21:08:15+0000",
+        "transaction_updated_date": "2020-03-06T21:08:15+0000",
+        "transaction_amount": {
+          "currency_code": "USD",
+          "value": "1032.00"
+        },
+        "fee_amount": {
+          "currency_code": "USD",
+          "value": "-35.39"
+        },
+        "transaction_status": "S",
+        "transaction_subject": "FitnessMembership",
+        "ending_balance": {
+          "currency_code": "USD",
+          "value": "96555.42"
+        },
+        "available_balance": {
+          "currency_code": "USD",
+          "value": "96555.42"
+        },
+        "protection_eligibility": "01"
+      },
+      "payer_info": {
+        "account_id": "UFN298XXEDRZL",
+        "email_address": "jay_wong-customer@me.com",
+        "address_status": "Y",
+        "payer_status": "Y",
+        "payer_name": {
+          "given_name": "Minjie",
+          "surname": "Wang",
+          "alternate_full_name": "Minjie Wang"
+        },
+        "country_code": "C2"
+      },
+      "shipping_info": {
+        "name": "Minjie, Wang",
+        "address": {
+          "line1": "NO 1 Nan Jin Road",
+          "city": "Shanghai",
+          "country_code": "C2",
+          "postal_code": "200000"
+        }
+      },
+      "cart_info": {
+        "item_details": [
+          {
+            "item_quantity": "1",
+            "item_unit_price": {
+              "currency_code": "USD",
+              "value": "1032.00"
+            },
+            "item_amount": {
+              "currency_code": "USD",
+              "value": "1032.00"
+            },
+            "total_item_amount": {
+              "currency_code": "USD",
+              "value": "1032.00"
+            }
+          }
+        ]
+      },
+      "store_info": {},
+      "auction_info": {},
+      "incentive_info": {}
+    },
+    {
+      "transaction_info": {
+        "paypal_account_id": "UFN298XXEDRZL",
+        "transaction_id": "5U388440KK836833M",
+        "transaction_event_code": "T0002",
+        "transaction_initiation_date": "2020-03-07T14:07:07+0000",
+        "transaction_updated_date": "2020-03-07T14:07:07+0000",
+        "transaction_amount": {
+          "currency_code": "USD",
+          "value": "11.00"
+        },
+        "fee_amount": {
+          "currency_code": "USD",
+          "value": "-0.67"
+        },
+        "transaction_status": "S",
+        "transaction_subject": "RecurringTest",
+        "ending_balance": {
+          "currency_code": "USD",
+          "value": "96565.75"
+        },
+        "available_balance": {
+          "currency_code": "USD",
+          "value": "96565.75"
+        },
+        "protection_eligibility": "01"
+      },
+      "payer_info": {
+        "account_id": "UFN298XXEDRZL",
+        "email_address": "jay_wong-customer@me.com",
+        "address_status": "Y",
+        "payer_status": "Y",
+        "payer_name": {
+          "given_name": "Minjie",
+          "surname": "Wang",
+          "alternate_full_name": "Minjie Wang"
+        },
+        "country_code": "C2"
+      },
+      "shipping_info": {
+        "name": "Minjie, Wang",
+        "address": {
+          "line1": "NO 1 Nan Jin Road",
+          "city": "Shanghai",
+          "country_code": "C2",
+          "postal_code": "200000"
+        }
+      },
+      "cart_info": {
+        "item_details": [
+          {
+            "item_quantity": "1",
+            "item_unit_price": {
+              "currency_code": "USD",
+              "value": "11.00"
+            },
+            "item_amount": {
+              "currency_code": "USD",
+              "value": "11.00"
+            },
+            "total_item_amount": {
+              "currency_code": "USD",
+              "value": "11.00"
+            }
+          }
+        ]
+      },
+      "store_info": {},
+      "auction_info": {},
+      "incentive_info": {}
+    },
+    {
+      "transaction_info": {
+        "paypal_account_id": "UFN298XXEDRZL",
+        "transaction_id": "2VR65367RS690944H",
+        "transaction_event_code": "T0002",
+        "transaction_initiation_date": "2020-03-07T14:40:45+0000",
+        "transaction_updated_date": "2020-03-07T14:40:45+0000",
+        "transaction_amount": {
+          "currency_code": "USD",
+          "value": "1032.00"
+        },
+        "fee_amount": {
+          "currency_code": "USD",
+          "value": "-35.39"
+        },
+        "transaction_status": "S",
+        "transaction_subject": "FitnessMembership",
+        "ending_balance": {
+          "currency_code": "USD",
+          "value": "97562.36"
+        },
+        "available_balance": {
+          "currency_code": "USD",
+          "value": "97562.36"
+        },
+        "protection_eligibility": "01"
+      },
+      "payer_info": {
+        "account_id": "UFN298XXEDRZL",
+        "email_address": "jay_wong-customer@me.com",
+        "address_status": "Y",
+        "payer_status": "Y",
+        "payer_name": {
+          "given_name": "Minjie",
+          "surname": "Wang",
+          "alternate_full_name": "Minjie Wang"
+        },
+        "country_code": "C2"
+      },
+      "shipping_info": {
+        "name": "Minjie, Wang",
+        "address": {
+          "line1": "NO 1 Nan Jin Road",
+          "city": "Shanghai",
+          "country_code": "C2",
+          "postal_code": "200000"
+        }
+      },
+      "cart_info": {
+        "item_details": [
+          {
+            "item_quantity": "1",
+            "item_unit_price": {
+              "currency_code": "USD",
+              "value": "1032.00"
+            },
+            "item_amount": {
+              "currency_code": "USD",
+              "value": "1032.00"
+            },
+            "total_item_amount": {
+              "currency_code": "USD",
+              "value": "1032.00"
+            }
+          }
+        ]
+      },
+      "store_info": {},
+      "auction_info": {},
+      "incentive_info": {}
+    }
+  ],
+  "account_number": "D5DGHCF76AVY2",
+  "start_date": "2020-03-06T07:00:00+0000",
+  "end_date": "2020-03-08T06:59:59+0000",
+  "last_refreshed_datetime": "2020-03-10T04:59:59+0000",
+  "page": 1,
+  "total_items": 4,
+  "total_pages": 1,
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v1/reporting/transactions?start_date=2020-03-06T00%3A00%3A00-0700&end_date=2020-03-07T23%3A59%3A59-0700&fields=all&page_size=100&page=1",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

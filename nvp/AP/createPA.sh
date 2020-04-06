@@ -1,0 +1,18 @@
+/usr/bin/curl https://svcs.sandbox.paypal.com/AdaptivePayments/Preapproval \
+  -s \
+  --insecure \
+  -H "X-PAYPAL-SECURITY-USERID: sb-typ8v15519_api1.business.example.com" \
+  -H "X-PAYPAL-SECURITY-PASSWORD: PHWYRCFEUNRUWQWM" \
+  -H "X-PAYPAL-SECURITY-SIGNATURE: A8iHridokODAOI7h2cIy.B4KWYROATOxwKKfowLJLXvlpOtm0cNuCNt9" \
+  -H "X-PAYPAL-REQUEST-DATA-FORMAT: NV" \
+  -H "X-PAYPAL-RESPONSE-DATA-FORMAT: NV" \
+  -H "X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T" \
+  -d returnUrl=https://example.com/success \
+  -d cancelUrl=https://example.com/cancel \
+  -d startingDate=2020-03-31 \
+  -d endingDate=2020-04-02 \
+  -d maxAmountPerPayment=35 \
+  -d maxNumberOfPayments=20 \
+  -d maxTotalAmountOfAllPayments=800 \
+  -d currencyCode=USD \
+  -d requestEnvelope.errorLanguage=en_US
